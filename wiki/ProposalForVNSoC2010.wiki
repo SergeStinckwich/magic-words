@@ -8,4 +8,26 @@
 = Description =
 This project proposal will take place in the context of OLPC (One Laptop Per Child) Vietnam (http://olpc.vn/). OLPC is a non-profit foundation whose mission is to produce, distribute, and support the use of learning activities for kids. We would like to develop specific educational activities in Vietnamese. As an intitial project, we choose to port a software called Magic Words to the Sugar Labs software platform developed by OLPC. Magic Words (http://comikit.se/page_magicwords.html) is a new kind of creative software where kids could be able to create in an interactive way, virtual worlds with animated characters (see figure 1 below). This software is freely available as an open-source project. One aim is this project is be able to add collaborative mechanisms so several kids connected with laptops in an adhoc network could design a virtual world together. This extension will be released under a open-source licence. The team selected for this proposal is supposed to port Magic Words to the Sugar software platform, translate the interface of the software in Vietnamese, and developed the collaborative mechanisms. Skills needed: good knowledge of object-oriented programming, be able to communicate in English in some developers worldwide.
 
-= Details =
+= Work to be done by the students team during the project =
+
+== Task 1: Working on porting Magic Words to the Sugar platform ==
+
+This should be quite easy, as Magic Words is written in Squeak/Smalltalk, who is supported on the Sugar platform. Squeak/Smalltalk environment is portable among a long of different platforms.
+  * download Magic Words on : http://comikit.se/page_magicwords.html
+  * download SUGAR platform and tests it on students machines. SUGAR works on Linux, Virtual Box virtualization software can be used for others platforms like Windows or Mac OS X.
+  * do some modifications of Magic Words in order to adapted it to the Sugar specific software/hardware requirements: size of the screen, animation speed, sound and video support, … Some modifications of the Squeak EToys VM should be also necessary.
+
+==Task 2: Adaptation of Magic Words multimedia materials to vietnamese child==
+
+  * Create a new set of free images usable by the project. Some free pictures with the suitable licences (creative commons) could be found on the Internet or design by the students team,
+  * Translate the interface into Vietnamese. Coordinate with others translation worldwide. In order to work on this project, students will have to interact with an international community of developers that used Squeak EToys and Sugar platforms (France, Morocco, Sweden).
+
+Task 3: Developing a collaborative interface for Magic Words
+
+  * Understand how to program collaborative activities using D-BUS API on Sugar. Some information are available here:
+    * http://wiki.laptop.org/go/D-BUS
+    * http://wiki.laptop.org/go/Presence_Service_D-Bus_API
+    * http://etoys-squeak-and-sugar.blogspot.com/2010/01/dbus-and-etoys-dbus-interface.html
+  * Design a good and effective solution for the collaborative feature of Magic Words, from a user's point of view, so child could exchange animated characters among severals laptops. For Magic Words' collaborative ability, the could design for example 2 new kinds of Magic Words actors : the teleporter and the copier. The teleporter could teleport an object to another teleporter (on another machine), which is specified by users. The copier does not teleport but duplicate the object and its "words" and place it at another teleporter, not copier. Those are basic ideas which need to be developed carefully, from an user standpoint. Users don't know how it works, they just know what the program visually shows them.
+
+  * Create software based on collaborative SUGAR API in order to implement the previous design. The technical architecture of the software is drafted in the figure 2 below.
