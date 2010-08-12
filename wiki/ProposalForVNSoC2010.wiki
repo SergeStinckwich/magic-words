@@ -22,7 +22,7 @@ This should be quite easy, as Magic Words is written in Squeak/Smalltalk, who is
   * Create a new set of free images usable by the project. Some free pictures with the suitable licences (creative commons) could be found on the Internet or design by the students team,
   * Translate the interface into Vietnamese. Coordinate with others translation worldwide. In order to work on this project, students will have to interact with an international community of developers that used Squeak EToys and Sugar platforms (France, Morocco, Sweden).
 
-Task 3: Developing a collaborative interface for Magic Words
+==Task 3: Developing a collaborative interface for Magic Words==
 
   * Understand how to program collaborative activities using D-BUS API on Sugar. Some information are available here:
     * http://wiki.laptop.org/go/D-BUS
