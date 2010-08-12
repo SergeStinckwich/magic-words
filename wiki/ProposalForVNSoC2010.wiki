@@ -6,5 +6,6 @@
   * Serge Stinckwich (IFI, Ha Noi)
  
 = Description =
+This project proposal will take place in the context of OLPC (One Laptop Per Child) Vietnam (http://olpc.vn/). OLPC is a non-profit foundation whose mission is to produce, distribute, and support the use of learning activities for kids. We would like to develop specific educational activities in Vietnamese. As an intitial project, we choose to port a software called Magic Words to the Sugar Labs software platform developed by OLPC. Magic Words (http://comikit.se/page_magicwords.html) is a new kind of creative software where kids could be able to create in an interactive way, virtual worlds with animated characters (see figure 1 below). This software is freely available as an open-source project. One aim is this project is be able to add collaborative mechanisms so several kids connected with laptops in an adhoc network could design a virtual world together. This extension will be released under a open-source licence. The team selected for this proposal is supposed to port Magic Words to the Sugar software platform, translate the interface of the software in Vietnamese, and developed the collaborative mechanisms. Skills needed: good knowledge of object-oriented programming, be able to communicate in English in some developers worldwide.
 
 = Details =
