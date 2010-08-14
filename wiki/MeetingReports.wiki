@@ -5,7 +5,7 @@
 Weekly meeting reports of Vietnamese Magic Words development team.  Some meetings do not have report since they are just for reviewing or coding sessions.
 
 = 5th meeting report =
-The 5th meeting report had Serge, Yang, Hai, Long, and Duy Anh as attenders.  Contents of our 5th meeting:
+The 5th meeting report had Serge, Yang, Hai, Long, and Duy Anh as attenders.At the beginning of the meeting, we talked mostly about tools we are gonna use for Magic Words project, including: Google Code page (wiki, issue tracker, and revision control system with SVN).  Then, we discussed more detail about the project and about roles of members. The meeting was finished with some technical aspects.  Main contents of our 5th meeting:
 
 == Technical aspects ==
 
@@ -34,6 +34,10 @@ GStreamer package is what we need.  Testing and experimenting are what need to b
     # Assignees: all.
     # Leaders: Hai, Hiep.
     # Notes: 2010/08/08 to 2010/09/15 would be a period of time for learning and training.
+
+= Other meeting materials =
+== 5th meeting ==
+
 
 = Development =
   Roadmap of training time and materials for training.
