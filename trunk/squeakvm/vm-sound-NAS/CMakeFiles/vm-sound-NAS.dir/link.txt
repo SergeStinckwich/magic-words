@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC -g -O2 -fomit-frame-pointer  -shared -Wl,-soname,so.vm-sound-NAS -o so.vm-sound-NAS CMakeFiles/vm-sound-NAS.dir/home/extra/src/Squeak-4.0.3.2202-src/unix/vm-sound-NAS/sqUnixSoundNAS.c.o -laudio 

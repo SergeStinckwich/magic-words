@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC -g -O2 -fomit-frame-pointer  -shared -Wl,-soname,so.KedamaPlugin -o so.KedamaPlugin CMakeFiles/KedamaPlugin.dir/home/extra/src/Squeak-4.0.3.2202-src/unix/src/plugins/KedamaPlugin/KedamaPlugin.c.o 

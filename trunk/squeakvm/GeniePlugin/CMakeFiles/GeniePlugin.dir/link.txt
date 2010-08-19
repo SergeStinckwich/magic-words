@@ -1,0 +1,2 @@
+/usr/bin/ar cr libGeniePlugin.a  CMakeFiles/GeniePlugin.dir/home/extra/src/Squeak-4.0.3.2202-src/unix/src/vm/intplugins/GeniePlugin/GeniePlugin.c.o
+/usr/bin/ranlib libGeniePlugin.a

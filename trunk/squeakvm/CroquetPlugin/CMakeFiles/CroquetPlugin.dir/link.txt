@@ -1,0 +1,2 @@
+/usr/bin/ar cr libCroquetPlugin.a  CMakeFiles/CroquetPlugin.dir/home/extra/src/Squeak-4.0.3.2202-src/unix/src/vm/intplugins/CroquetPlugin/CroquetPlugin.c.o CMakeFiles/CroquetPlugin.dir/home/extra/src/Squeak-4.0.3.2202-src/Cross/plugins/CroquetPlugin/TriBoxStub.c.o
+/usr/bin/ranlib libCroquetPlugin.a

@@ -1,0 +1,24 @@
+# B3DAccel depends on the main display plugin having GL (vm-display-X11) or AGL
+# (vm-display-Quartz) as a dependency.  This lets 3D work in both X11 and Quartz
+# on MacOS.
+
+EXPECT_UNDEFINED_SYMBOLS ()
+ADD_DEFINITIONS (${@plugin@_definitions})
+LINK_DIRECTORIES (${@plugin@_link_directories})
+INCLUDE_DIRECTORIES (${@plugin@_include_directories}
+    ${bld}
+    ${src}/vm
+    ${cross}/vm
+    ${src}/plugins/@plugin@
+    ${src}/vm/intplugins/@plugin@
+    ${unix}/vm
+    ${unix}/plugins/@plugin@
+    ${unix}/@plugin@
+    ${cross}/plugins/@plugin@
+)
+
+ADD_LIBRARY (@plugin@ MODULE @plugin_sources@)
+
+TARGET_LINK_LIBRARIES (@plugin@ ${@plugin@_link_libraries})
+
+INSTALL (TARGETS @plugin@ LIBRARY DESTINATION @plgdir@)

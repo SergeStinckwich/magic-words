@@ -1,0 +1,2 @@
+/usr/bin/ar cr libSurfacePlugin.a  CMakeFiles/SurfacePlugin.dir/home/extra/src/Squeak-4.0.3.2202-src/Cross/plugins/SurfacePlugin/SurfacePlugin.c.o
+/usr/bin/ranlib libSurfacePlugin.a

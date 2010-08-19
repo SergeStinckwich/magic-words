@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC -g -O2 -fomit-frame-pointer  -shared -Wl,-soname,so.vm-sound-OSS -o so.vm-sound-OSS CMakeFiles/vm-sound-OSS.dir/home/extra/src/Squeak-4.0.3.2202-src/unix/vm-sound-OSS/sqUnixSoundOSS.c.o -lasound 

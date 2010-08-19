@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC -g -O2 -fomit-frame-pointer  -shared -Wl,-soname,so.PseudoTTYPlugin -o so.PseudoTTYPlugin CMakeFiles/PseudoTTYPlugin.dir/home/extra/src/Squeak-4.0.3.2202-src/unix/src/plugins/PseudoTTYPlugin/PseudoTTYPlugin.c.o CMakeFiles/PseudoTTYPlugin.dir/home/extra/src/Squeak-4.0.3.2202-src/unix/plugins/PseudoTTYPlugin/sqUnixPseudoTTYPlugin.c.o -lutil -lutil 

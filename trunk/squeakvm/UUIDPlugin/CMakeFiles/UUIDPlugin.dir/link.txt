@@ -1,0 +1,2 @@
+/usr/bin/ar cr libUUIDPlugin.a  CMakeFiles/UUIDPlugin.dir/home/extra/src/Squeak-4.0.3.2202-src/unix/src/vm/intplugins/UUIDPlugin/UUIDPlugin.c.o CMakeFiles/UUIDPlugin.dir/home/extra/src/Squeak-4.0.3.2202-src/unix/plugins/UUIDPlugin/sqUnixUUID.c.o
+/usr/bin/ranlib libUUIDPlugin.a
