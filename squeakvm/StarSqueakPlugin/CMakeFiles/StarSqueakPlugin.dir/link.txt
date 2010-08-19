@@ -1,0 +1,2 @@
+/usr/bin/ar cr libStarSqueakPlugin.a  CMakeFiles/StarSqueakPlugin.dir/home/extra/src/Squeak-4.0.3.2202-src/unix/src/vm/intplugins/StarSqueakPlugin/StarSqueakPlugin.c.o
+/usr/bin/ranlib libStarSqueakPlugin.a

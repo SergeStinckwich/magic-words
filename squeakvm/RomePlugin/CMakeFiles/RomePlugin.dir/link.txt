@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC -g -O2 -fomit-frame-pointer  -shared -Wl,-soname,so.RomePlugin -o so.RomePlugin CMakeFiles/RomePlugin.dir/home/extra/src/Squeak-4.0.3.2202-src/unix/src/plugins/RomePlugin/RomePlugin.c.o -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0 -lfreetype 

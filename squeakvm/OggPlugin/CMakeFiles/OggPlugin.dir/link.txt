@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC -g -O2 -fomit-frame-pointer  -shared -Wl,-soname,so.OggPlugin -o so.OggPlugin CMakeFiles/OggPlugin.dir/home/extra/src/Squeak-4.0.3.2202-src/unix/src/plugins/OggPlugin/OggPlugin.c.o CMakeFiles/OggPlugin.dir/home/extra/src/Squeak-4.0.3.2202-src/Cross/plugins/OggPlugin/sqOgg.c.o -logg -lvorbis -lspeex 

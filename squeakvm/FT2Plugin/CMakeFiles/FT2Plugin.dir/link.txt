@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC -g -O2 -fomit-frame-pointer  -shared -Wl,-soname,so.FT2Plugin -o so.FT2Plugin CMakeFiles/FT2Plugin.dir/home/extra/src/Squeak-4.0.3.2202-src/unix/src/plugins/FT2Plugin/FT2Plugin.c.o -lfreetype 

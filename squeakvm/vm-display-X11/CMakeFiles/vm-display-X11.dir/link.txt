@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC -g -O2 -fomit-frame-pointer  -shared -Wl,-soname,so.vm-display-X11 -o so.vm-display-X11 CMakeFiles/vm-display-X11.dir/home/extra/src/Squeak-4.0.3.2202-src/unix/vm-display-X11/sqUnixX11.c.o CMakeFiles/vm-display-X11.dir/home/extra/src/Squeak-4.0.3.2202-src/unix/vm-display-X11/sqUnixMozilla.c.o -lSM -lICE -lX11 -lXext -lGLU -lGL 

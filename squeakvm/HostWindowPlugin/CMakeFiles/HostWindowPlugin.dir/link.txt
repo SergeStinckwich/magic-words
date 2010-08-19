@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC -g -O2 -fomit-frame-pointer  -shared -Wl,-soname,so.HostWindowPlugin -o so.HostWindowPlugin CMakeFiles/HostWindowPlugin.dir/home/extra/src/Squeak-4.0.3.2202-src/unix/src/plugins/HostWindowPlugin/HostWindowPlugin.c.o CMakeFiles/HostWindowPlugin.dir/home/extra/src/Squeak-4.0.3.2202-src/unix/plugins/HostWindowPlugin/sqUnixHostWindowPlugin.c.o 

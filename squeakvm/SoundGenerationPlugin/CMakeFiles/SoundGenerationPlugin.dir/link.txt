@@ -1,0 +1,2 @@
+/usr/bin/ar cr libSoundGenerationPlugin.a  CMakeFiles/SoundGenerationPlugin.dir/home/extra/src/Squeak-4.0.3.2202-src/unix/src/vm/intplugins/SoundGenerationPlugin/SoundGenerationPlugin.c.o CMakeFiles/SoundGenerationPlugin.dir/home/extra/src/Squeak-4.0.3.2202-src/Cross/plugins/SoundGenerationPlugin/sqOldSoundPrims.c.o
+/usr/bin/ranlib libSoundGenerationPlugin.a

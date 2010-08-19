@@ -1,0 +1,2 @@
++ try gawk
++ gawk -f /home/extra/src/Squeak-4.0.3.2202-src/unix/cmake/gnuify.awk /home/extra/src/Squeak-4.0.3.2202-src/build/interp.c
